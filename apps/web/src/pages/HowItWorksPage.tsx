@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { PipelineStep } from '../components/PipelineStep'
 import { DocCallout } from '../components/DocCallout'
 
 const STEPS = [
@@ -35,11 +34,6 @@ export function HowItWorksPage() {
           Four steps. No chat product in the middle.
         </p>
       </header>
-
-      <p className="t-body-sm muted" style={{ marginBottom: '1rem' }}>
-        Process labels:
-      </p>
-      <PipelineStep />
 
       <div className="how-steps">
         {STEPS.map((step, i) => (
