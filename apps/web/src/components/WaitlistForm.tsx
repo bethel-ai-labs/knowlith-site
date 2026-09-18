@@ -101,6 +101,9 @@ export function WaitlistForm() {
           {error}
         </p>
       ) : null}
+      <p className="t-caption waitlist-form-note" style={{ margin: '0.75rem 0 0' }}>
+        Email for founding access only — not a ship date.
+      </p>
     </form>
   )
 }

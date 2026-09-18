@@ -19,7 +19,15 @@ export function EvidenceQuote({ quote, sourceHint, onOpenOriginal }: Props) {
             Open original
           </button>
         ) : (
-          <span className="t-caption">Open original</span>
+          <button
+            type="button"
+            className="btn btn-ghost open-original-ghost"
+            disabled
+            aria-disabled="true"
+            title="Opens in the product — not on this marketing page"
+          >
+            Open original
+          </button>
         )}
       </figcaption>
     </figure>
