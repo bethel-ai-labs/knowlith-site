@@ -1,0 +1,44 @@
+# Secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/api.token
+**/secrets/
+
+# Dependencies & build
+node_modules/
+dist/
+dist-ssr/
+build/
+.turbo/
+.cache/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Local / private GTM (not for public visitors)
+campaigns/
+MARKETING-PIPE-*.md
+*.local.md
+private/
+.scratch/
