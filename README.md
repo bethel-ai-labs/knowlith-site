@@ -2,6 +2,8 @@
 
 Marketing site and docs for [Knowlith](https://github.com/bethel-ai-labs/knowlith), under [Bethel AI Labs](https://github.com/bethel-ai-labs).
 
+This repository (`bethel-ai-labs/knowlith-site`) is the public **marketing + docs** web surface: thesis pages, product story, documentation, and approve/review metaphors. The product daemon, MCP gateway, and desktop UI live in **bethel-ai-labs/knowlith** — not here.
+
 ## Layout
 
 | Path | Purpose |
@@ -11,12 +13,24 @@ Marketing site and docs for [Knowlith](https://github.com/bethel-ai-labs/knowlit
 | `brand` | Brand assets |
 | `campaigns` | GTM / campaign notes |
 
+## Run the web app
+
+```sh
+cd apps/web
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production build → dist/
+npm run preview  # serve the build
+```
+
 ## Ownership
 
-- Org: `bethel-ai-labs`
+- Org / this site: `bethel-ai-labs/knowlith-site`
+- Product daemon: [`bethel-ai-labs/knowlith`](https://github.com/bethel-ai-labs/knowlith)
 - CODEOWNERS: `@PetarVukovic`
-- Product daemon stays in the Knowlith product repo — this repo is site/docs/GTM only.
 
-## Status
+## What this is not
 
-Skeleton only. Web implements UI in `apps/web`.
+- Not the Knowlith daemon or MCP server
+- Not a GitHub Releases host (install still points at the product repo)
+- Not a place for invented metrics or “Claude ✓ updated” claims

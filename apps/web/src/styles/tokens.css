@@ -1,0 +1,34 @@
+/* Knowlith Web — paper/ink tokens from knowlith-ui-foundation-v1.md §2 */
+:root {
+  --web-paper: #F3EDE3;
+  --web-paper-2: #EBE3D6;
+  --web-ink: #1A1714;
+  --web-ink-muted: #5C564E;
+  --web-ink-faint: #8A8378;
+  --web-rule: #D4CBBC;
+  --web-rule-strong: #B8AD9A;
+  --web-stamp: #0E6E6E;
+  --web-stamp-soft: #DCEBEA;
+  --web-on-stamp: #FFFFFF;
+  --web-await: #A5670A;
+  --web-await-soft: #FBF0DD;
+  --web-conflict: #B3261E;
+  --web-conflict-soft: #FBE6E4;
+  --web-confirmed: #1F6B45;
+  --web-confirmed-soft: #E2F0E8;
+  --web-info: #1D5B96;
+  --web-info-soft: #E4EDF6;
+  --web-ink-quote: #2A2620;
+
+  --web-font-sans: "Inter Variable", Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --web-font-display: Fraunces, "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --web-font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --web-radius-sm: 4px;
+  --web-radius-md: 6px;
+  --web-radius-lg: 8px;
+  --web-shadow: 0 1px 2px 0 rgb(26 23 20 / 0.06);
+  --web-shadow-md: 0 4px 16px -4px rgb(26 23 20 / 0.1);
+  --web-max: 1080px;
+  --web-prose: 42rem;
+}

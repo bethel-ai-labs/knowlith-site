@@ -1,0 +1,94 @@
+/* Type scale — foundation §3. Base 16px. */
+:root {
+  --type-display-xl: 3.5rem;
+  --type-display-lg: 2.75rem;
+  --type-display-md: 2rem;
+  --type-title-lg: 1.5rem;
+  --type-title-md: 1.25rem;
+  --type-title-sm: 1.125rem;
+  --type-body-lg: 1.125rem;
+  --type-body: 1rem;
+  --type-body-sm: 0.875rem;
+  --type-caption: 0.75rem;
+  --type-label: 0.6875rem;
+  --type-quote: 1rem;
+  --type-mono: 0.8125rem;
+}
+
+.t-display-xl {
+  font-family: var(--web-font-display);
+  font-size: var(--type-display-xl);
+  font-weight: 550;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+.t-display-lg {
+  font-family: var(--web-font-display);
+  font-size: var(--type-display-lg);
+  font-weight: 550;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+.t-display-md {
+  font-family: var(--web-font-display);
+  font-size: var(--type-display-md);
+  font-weight: 550;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+.t-title-lg {
+  font-size: var(--type-title-lg);
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+.t-title-md {
+  font-size: var(--type-title-md);
+  font-weight: 620;
+  line-height: 1.25;
+}
+.t-title-sm {
+  font-size: var(--type-title-sm);
+  font-weight: 600;
+  line-height: 1.3;
+}
+.t-body-lg {
+  font-size: var(--type-body-lg);
+  line-height: 1.55;
+}
+.t-body {
+  font-size: var(--type-body);
+  line-height: 1.55;
+}
+.t-body-sm {
+  font-size: var(--type-body-sm);
+  line-height: 1.5;
+}
+.t-caption {
+  font-size: var(--type-caption);
+  line-height: 1.4;
+  color: var(--web-ink-faint);
+}
+.t-label {
+  font-size: var(--type-label);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--web-ink-faint);
+}
+.t-quote {
+  font-size: var(--type-quote);
+  line-height: 1.5;
+  color: var(--web-ink-quote);
+}
+.t-mono {
+  font-family: var(--web-font-mono);
+  font-size: var(--type-mono);
+  line-height: 1.45;
+}
+
+@media (max-width: 720px) {
+  .t-display-xl { font-size: 2.25rem; }
+  .t-display-lg { font-size: 1.85rem; }
+  .t-display-md { font-size: 1.5rem; }
+}
