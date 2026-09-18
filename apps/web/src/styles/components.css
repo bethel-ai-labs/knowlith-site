@@ -559,35 +559,6 @@
   color: var(--web-ink-muted);
 }
 
-.stamp-legend-glossary {
-  max-width: 40rem;
-  line-height: 1.45;
-}
-
-.home-waitlist-strip {
-  border-top: 1px dashed var(--web-rule-strong);
-  border-bottom: 1px dashed var(--web-rule-strong);
-  background: var(--web-paper-2);
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.home-waitlist-strip-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.open-original-ghost {
-  opacity: 0.5;
-  cursor: not-allowed;
-  font-size: var(--type-caption);
-  padding: 0.35rem 0.7rem;
-  pointer-events: none;
-}
-
 .chapter {
   padding: 2.5rem 0;
   border-top: 1px solid var(--web-rule);

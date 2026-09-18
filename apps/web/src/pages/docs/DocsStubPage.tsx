@@ -147,12 +147,8 @@ const stubs: Record<string, { title: string; body: ReactNode }> = {
     body: (
       <>
         <p>
-          Your data stays on your machine under <code className="t-mono">~/Knowlith</code> — not on
-          a Knowlith cloud.
-        </p>
-        <p>
-          Approved knowledge is written there locally. No cloud company-brain claims on this
-          marketing site.
+          Approved knowledge lives under <code className="t-mono">~/Knowlith</code> on your machine.
+          No cloud company-brain claims on this marketing site.
         </p>
         <pre
           className="t-mono"
