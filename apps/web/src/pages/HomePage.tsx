@@ -53,7 +53,7 @@ export function HomePage() {
           <KnowledgePipe />
           <div style={{ marginTop: '1.75rem' }}>
             <p className="t-label" style={{ marginBottom: '0.75rem' }}>
-              Claim ∥ Quote
+              Example review (not live)
             </p>
             <ClaimQuoteSplit
               kind={sample.kind}
@@ -82,8 +82,23 @@ export function HomePage() {
                   <ConfirmedBadge /> Confirmed / live for AI
                 </span>
               </div>
+              <p className="t-body-sm muted stamp-legend-glossary" style={{ margin: '0.85rem 0 0' }}>
+                Approved = live for agents · Needs your OK = blocked · Conflict = choose · Confirmed
+                = after you stamp
+              </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="band home-waitlist-strip" aria-label="Waitlist">
+        <div className="container prose-width home-waitlist-strip-inner">
+          <p className="t-body" style={{ margin: 0 }}>
+            Ready when you are — founding seats only.
+          </p>
+          <Link to="/waitlist" className="btn btn-primary">
+            Join the free waitlist
+          </Link>
         </div>
       </section>
 
