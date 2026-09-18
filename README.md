@@ -1,6 +1,6 @@
 # knowlith-site
 
-Marketing site and docs for [Knowlith](https://github.com/PetarVukovic/knowlith), under [Bethel AI Labs](https://github.com/bethel-ai-labs).
+Marketing site and docs for [Knowlith](https://github.com/bethel-ai-labs/knowlith), under [Bethel AI Labs](https://github.com/bethel-ai-labs).
 
 ## Layout
 
